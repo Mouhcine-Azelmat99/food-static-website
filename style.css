@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.navbar-brand{
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: black;
+}
+.nav-link{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+    opacity: .7;
+    border-bottom: 2px solid #e67e22;
+}
+#logo{
+    font-family: 'MonteCarlo', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+#regist_btn{
+    transition: 0.3s;
+}
+#regist_btn:hover{
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    color: white;
+}
+
+/* main section  */
+
+.main{
+    color: white;
+    background: url('./images/FoodPics/8.jpg')no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    margin: 20px;
+}
+.main p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 20px;
+}
+.trending{
+    background-image: url(./images/wooden-board-empty-table-top-blurred-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.trending h1{
+    color: white;
+}
+.trending h4{
+    font-weight: bold;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000 ;
+}
+.trending P{
+    font-size: 0.8rem;
+    color: gray;
+}
+.trending h6{
+    font-weight: 400;
+}
+/* contact section  */
+.contact{
+    background: url(./images/background-top-view-old-vintage-aged-brushed-brown-wooden-table-rich-texture.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+}
+
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .social_media{
+        font-size: 2rem;
+        color: white;
+        margin: 0px 20px;
+    }
+
+    /* Review section  */
+
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid transparent;
+        border-radius: 0;
+        margin-top:20px;
+    }
+    .text-muted {
+        color: #8898aa!important;
+    }
+    .card .card-subtitle {
+        font-weight: 400;
+        margin-bottom: 10px;
+        color: #8898aa;
+    }
+    ul.list-style-none li {
+        list-style: none;
+    }
+    .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #707cd2;
+        transition: width .6s ease;
+    }
+    .progress {
+        -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+        box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+        -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+        -o-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+    }
+    
+    .progress {
+        display: flex;
+        height: 4px;
+        overflow: hidden;
+        font-size: .65625rem;
+        background-color: rgba(120,130,140,.13);
+        border-radius: 0;
+        box-shadow: inset 0 0.1rem 0.1rem rgba(0,0,0,.1);
+    }
+    .display-5 {
+        font-size: 50px !important;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    /* footer section  */
+
+    .footer{
+        background-color: #000;
+        color: white;
+        width: 100%;
+        
+    }
